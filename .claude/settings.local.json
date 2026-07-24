@@ -1,0 +1,15 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm --version)",
+      "Bash(npm config *)",
+      "Bash(npm_config_prefix=/home/joao/.nvm/versions/node/v20.20.2 npx shadcn@latest init -y -b neutral)",
+      "Bash(npm_config_prefix=/home/joao/.nvm/versions/node/v20.20.2 npx shadcn@latest init -y -b radix)",
+      "Bash(npm_config_prefix=/home/joao/.nvm/versions/node/v20.20.2 npx shadcn@latest init --help)",
+      "Bash(curl -s -o /dev/null -w \"trabalhe html: %{http_code}\\\\n\" http://127.0.0.1:3200/trabalhe-conosco/)",
+      "Bash(curl -s http://127.0.0.1:3200/trabalhe-conosco/)",
+      "Bash(rm -rf out)",
+      "Bash(npm run *)"
+    ]
+  }
+}
