@@ -9,7 +9,11 @@
       "Bash(curl -s -o /dev/null -w \"trabalhe html: %{http_code}\\\\n\" http://127.0.0.1:3200/trabalhe-conosco/)",
       "Bash(curl -s http://127.0.0.1:3200/trabalhe-conosco/)",
       "Bash(rm -rf out)",
-      "Bash(npm run *)"
+      "Bash(npm run *)",
+      "Bash(grep -E ' index.html$| servicos/index.html$| _next/')",
+      "Bash(ffprobe -v error -show_entries stream=width,height,pix_fmt -of csv=p=0 src/assets/images/aeg-icon.png)",
+      "Bash(unzip -l aegmedia-site.zip)",
+      "Bash(grep -E ' index.html$')"
     ]
   }
 }
