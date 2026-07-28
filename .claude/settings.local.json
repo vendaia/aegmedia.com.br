@@ -13,7 +13,8 @@
       "Bash(grep -E ' index.html$| servicos/index.html$| _next/')",
       "Bash(ffprobe -v error -show_entries stream=width,height,pix_fmt -of csv=p=0 src/assets/images/aeg-icon.png)",
       "Bash(unzip -l aegmedia-site.zip)",
-      "Bash(grep -E ' index.html$')"
+      "Bash(grep -E ' index.html$')",
+      "Bash(npm_config_prefix=/home/joao/.nvm/versions/node/v20.20.2 npx playwright-core install chromium-headless-shell)"
     ]
   }
 }

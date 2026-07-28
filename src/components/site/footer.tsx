@@ -135,9 +135,23 @@ export function Footer() {
             © {new Date().getFullYear()} AEG Media. Todos os direitos
             reservados.
           </p>
-          <p className="text-sm text-white/40">
-            Belo Jardim, Pernambuco — Brasil
-          </p>
+          <div className="flex flex-col items-center gap-3 sm:flex-row sm:gap-6">
+            <Link
+              href="/politica-de-privacidade"
+              className="text-sm text-white/40 transition-colors hover:text-white"
+            >
+              Política de Privacidade
+            </Link>
+            <Link
+              href="/termos-e-condicoes"
+              className="text-sm text-white/40 transition-colors hover:text-white"
+            >
+              Termos e Condições
+            </Link>
+            <p className="text-sm text-white/40">
+              Belo Jardim, Pernambuco — Brasil
+            </p>
+          </div>
         </div>
       </div>
     </footer>
